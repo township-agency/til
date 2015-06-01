@@ -14,7 +14,7 @@ in the commit message.
 ![issue with reference](http://i.imgur.com/XkZvehR.png)
 
 Using language like "Closes #2" in a commit message will close the referenced
-image when the commit is merged into master.
+issue when the commit is merged into master.
 
 ![resolved issue](http://i.imgur.com/307ND8N.png)
 
