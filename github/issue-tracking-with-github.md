@@ -16,6 +16,10 @@ in the commit message.
 Using language like "Closes #2" in a commit message will close the referenced
 image when the commit is merged into master.
 
+![resolved issue](http://i.imgur.com/307ND8N.png)
 
+See [the github help
+pages](https://help.github.com/articles/closing-issues-via-commit-messages/) for
+more info.
 
 
