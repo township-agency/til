@@ -3,7 +3,7 @@ If you want to select a class where all the class-names begin with `is-dash` for
 ```css
 
 [class^="is-dash"],
-[class*=' is-dash'] {
+[class*=" is-dash"] {
   position: fixed;
 }
 ```
