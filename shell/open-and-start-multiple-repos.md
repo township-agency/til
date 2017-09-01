@@ -6,7 +6,7 @@ This is great! Yay microservices (and serving static assets over CDNs :)! But so
 
 This is a quick script/alias (using ZSH) that will `cd` into multiple repos, open new tabs in Terminal (in my case iTerm 2) and start the codebases with the commands you provide. There's room for improvement here, but it'll get the job done. 
 
-In `.zshrc`
+In `.zshrc`, ensure you have `ttab` installed globally with `npm install -g ttab`
 
 ```
 openCleverstack() {
@@ -17,4 +17,10 @@ openCleverstack() {
 alias cs="openCleverstack"
 ```
 
-This command will open the three codebases I need and start 'em up. 
+This command will open the three codebases I need and start 'em up. Just type:
+
+```
+$ cs
+```
+
+and you'll see three tabs open, all starting up with your commands :)
